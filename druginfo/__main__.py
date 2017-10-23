@@ -3,11 +3,11 @@ import re, os, time, argparse, platform, getpass
 try:
     from druginfo import query_save_to
     from settings import USER_ID, PASSWORD, PUBLIC_IP, HEADERS
-    from shortcuts import xlspget
+    from shortcuts import xlspget, read_keyword_file
 except:
     from .druginfo import query_save_to
     from .settings import USER_ID, PASSWORD, PUBLIC_IP, HEADERS
-    from .shortcuts import xlspget
+    from .shortcuts import xlspget, read_keyword_file
 
 
 

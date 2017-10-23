@@ -222,7 +222,7 @@ class DrugInfoAPI(object):
                 '조회수': lambda row: get_strip(row['조회수']),
                 '대체': lambda row: get_strip(row['대체']),
                 '수정': lambda row: get_strip(row['수정']),
-            },
+            }
         ).rename(**{'': 'img'})
         id_list = lst.column_values('id')
 

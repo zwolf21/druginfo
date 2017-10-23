@@ -1,4 +1,8 @@
 *.xls*
 .vscode/
 __pycache__/
+dist/
+druginfo.egg-info/
+build/
+
 
