@@ -1,4 +1,4 @@
-import hashlib, re, os, sys
+import hashlib, re, os, sys, platform
 from collections import OrderedDict
 
 from requests import get, Session

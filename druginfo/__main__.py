@@ -36,7 +36,7 @@ def main():
     print(args)
     query_save_to(
         user_id = user_id, password = password, public_ip=PUBLIC_IP, headers=HEADERS,
-        keywords =  xlspget(args.excel, '[A-Z\d]\d{8}') or read_keyword_file(args.file) or args.keywords,
+        keywords = xlspget(args.excel, '[A-Z\d]\d{8}') or read_keyword_file(args.file) or args.keywords,
         _file = args.output or args.Output or args.append or args.Append, 
         start = args.Image or args.Output or args.Append,
         oneByone = args.precision or args.Precision,
